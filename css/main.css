@@ -1,1 +1,7 @@
-header: red
+h1 {
+  color: red;
+}
+
+social {
+  class: $brand;
+}
