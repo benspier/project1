@@ -1,7 +1,32 @@
-h1 {
-  color: red;
+body {
+  font-family: 'helvetica', 'arial', sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 4em 1em;
+  color: #555;
 }
 
-social {
-  class: $brand;
+div {
+  border: 6px black solid;
+  margin: 20px;
+  padding: 20px;
+  height: 100px;
+  width: 400px;
+}
+
+.box1 {
+  position: relative;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+#intro {
+  color: tomato;
+}
+
+#intro > span {
+  color: teal;
 }
